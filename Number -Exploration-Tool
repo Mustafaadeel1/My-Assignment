@@ -1,6 +1,5 @@
 # Get user's name
-name = input("Enter your name: ")
-
+name = str (input("Enter your name:"))
 # Get user's favorite numbers
 num1 = int(input("Enter your first favorite number: "))
 num2 = int(input("Enter your second favorite number: "))
@@ -33,16 +32,8 @@ total_sum = num1 + num2 + num3
 print(f"\nAmazing! The sum of your favorite numbers is: {total_sum}")
 
 # Check if the sum is a prime number
-if total_sum < 2:
-    is_prime = False
-else:
-    is_prime = True
-    for i in range(2, int(total_sum **2) ):
-        if total_sum % i == 0:
-            is_prime = False
-            break
 
-if is_prime:
-    print(f"Wow, {total_sum} is a prime number!")
-else:
-    print(f"{total_sum} is not a prime number.")
+
+
+
+ 
